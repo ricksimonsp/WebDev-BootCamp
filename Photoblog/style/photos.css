@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+img {
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+nav {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #a1a1a196;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 15px 0;
+    font-family: 'DynaPuff', cursive;
+}
+
+
+
+
+
