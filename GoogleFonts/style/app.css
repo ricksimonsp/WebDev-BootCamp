@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1 {
+        font-family: 'Oswald', sans-serif;
+    }
+
+p {
+    font-family: 'Mukta', sans-serif;
+    text-align: justify;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
