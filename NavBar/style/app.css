@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(241, 238, 226);
+}
+
+form.d-flex {
+    margin-left: auto;
+}
+
+nav#text {
+    text-align: justify;
+}
+
