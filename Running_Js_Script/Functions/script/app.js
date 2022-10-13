@@ -4,7 +4,7 @@ function singSong() {
     console.log("MI");
 }
 
-function greet(firstName, lastName) {
+/*function greet(firstName, lastName) {
     console.log(`Hey there, ${firstName} ${lastName[0]}.`)
 }
 
@@ -21,21 +21,18 @@ function add(x, y) {
         return false;
     }
     return x + y;
-}
+}*/
 
 
-
-
-
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
+ singSong()
+ singSong()
+ singSong()
+ singSong()
+ singSong()
+ singSong()
+ singSong()
+ singSong()
+ singSong()
+ singSong()
+ singSong()
 
