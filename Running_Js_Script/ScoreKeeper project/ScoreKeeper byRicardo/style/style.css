@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+img {
+    width: 610px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+
+section#player {
+    margin-left: 36%;
+}
+
+select#playto {
+    border-radius: 5px;
+}
+
+div#buttons {
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+button#p1Button {
+    background-color: rgb(17, 137, 47);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    font-size: larger;
+
+}
+
+button#p2Button {
+    background-color: rgb(22, 187, 187);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    font-size: larger;
+
+}
+
+button#reset {
+    background-color: rgb(221, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    font-size: larger;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+p#socore {
+    color: grey;
+    margin-left: 36%;
+    margin-top: -1%;
+}
