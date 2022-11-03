@@ -1,7 +1,20 @@
-const multiply = (x, y) => x * y;
 
-const square = x => multiply(x, x);
+const delayColorChange = (newColor, delay, doNext) => {
+    setTimeout(() => {
+        document.body.style.backgroundColor = newColor;
+        doNext && doNext();
+    }, delay)
+}
 
-const isRightTriangle = (a, b, c) => (
-    square(a) + square(b) === square(c)
-)
+delayColorChange('red', 1000, () => {
+    delayColorChange('orange', 1000, () => {
+        delayColorChange('yellow', 1000, () => {
+            delayColorChange('green', 1000, () => {
+                delayColorChange('blue', 1000, () => {
+                    
+                })
+            })
+        })
+    })
+})
+
